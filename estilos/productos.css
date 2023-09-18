@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+body { 
+    background-color:rgb(126, 155, 175);
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+    align-items: 0;
+}
+
+header nav {
+            margin-left: left;
+            padding-left: 90px;
+}
+
+header nav ul {
+            gap: 10px;
+}
+
+header nav ul li a {
+            background-color: rgb(166, 177, 177);
+            color: rgb(49, 49, 49);
+            display: block;
+            padding: 5px 10px ;
+            margin-top: 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all .5s;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(250, 233, 220);
+}
+
+#Titulo {
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+}
+
+#Titulo h1 {
+    height: 20px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    background-color: black;
+}
+
+.titulo-principal {
+    text-align: center;
+}
+
+.centrado {
+    display: inline-block;
+    color: #fff;
+    padding-top:25px;
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  
+}
+
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+footer {
+    display: flex;
+    height: 100%;
+    color: red;
+    background-color: rgb(233, 233, 233);
+    padding: 30px;
+}
+
+footer p {
+    font-size: 22px;
+}
+footer  nav li a {
+    background-color: rgb(166, 177, 177);
+    color: rgb(49, 49, 49);
+    display :block; 
+    padding: 5px 5px;
+    margin-top: 1px;
+    margin-left: 80px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .5s;
+}
+footer a:hover {
+    background-color: rgb(245, 198, 163);
+}
+.iconos-redes {
+    background-color: rgb(233, 233, 233);
+    flex-direction:row;
+    margin-left:60px;
+    padding: 5px;
+}
+
+.imgfoot {
+    
+    width:40px;
+    height: 40px;
+}
